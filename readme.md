@@ -51,3 +51,7 @@ Eu defino a variável N que representa o número que o ogro que contar com as m�
 
 #### Passo Final
 Eu verifico se deve utilizar mais de uma mão ou não, analisando se o número é maior que 5, se não for ele entra em um laço de i=0 até i < N em i ++ printando "I". Ao final do laço ele printa um * para representar a mão fechada e um \n. E caso for maior que 5 serão printados automaticamente "IIIII" cinco I's para representar a mão esquerda e um laço igual ao anterior, porem a variável N é subtraída em 5 para representar os dedos que já foram levantados e ao final deste laço é printado o \n também.
+
+
+## Conclusão
+Não pude verificar se eles seriam aceitos no site da OBI devido um problema técnico no site deles, porem acredito que não teria problemas nos testes. Espero poder participar dessa chance de ser estagiário na Polícia Federal devido à grande oportunidade de poder aprender muito na minha areá e conhecer mais sobre o mercado de trabalho da mesma.
