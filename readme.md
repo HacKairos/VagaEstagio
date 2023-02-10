@@ -41,7 +41,7 @@ Após armazenar o valor de cada número do array eu chamo a função contador a 
 Dentro da função caso left diferente de right o contador aumenta em 1 e passa para a próxima recursão passando Left+1, Right -1, L e o C. A recursão acaba quando Left==Right ou Left>Right. 
 
 
-## Problema 3 - Ogro
+## [Problema 3 - Ogro](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f3/ogro/)
 Este problema foi o mais simples na minha opinião, lembra um pouco a solução do primeiro, pois não utilizei nenhuma técnica avançada, neste problema eu tenho que ajudar o ogro a contar quantos dedos ele deve levantar para determinados números e caso fosse menor do que 6 utilizar apenas uma mão enquanto a mão fechada é representada por "*".
 
 ### Passo a Passo
