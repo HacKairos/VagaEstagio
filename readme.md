@@ -25,6 +25,20 @@ Entao eu basicamente repito o processo quando o i é igual a 1 porem eu crio a v
 Ai ao contabilizar todas as aparições eu chamo a função "contador" que basicamente verifica em todas as posições dos arrays de inteiro se o número reservado é 0, 1 ou -1 e retorna o valor de cartas que faltam em determinados naipes ou se possui cartas repetidas dentro deles representando com a mensagem erro.
 
 
-## Problema 2 - Lista palíndroma
+## [Problema 2 - Lista palíndroma](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f2/lista/)
+Neste segundo problema eu aplico alguns dos meus conhecimentos adquiridos na faculdade como alocação de memoria e recursividade, podendo assim apresentar um programa muito mais refinado que o anterior. também utilizando a linguagem C.
+
+
+### Passo a Passo
+
+#### Passo 1
+Eu defino a varivel N que representa a quantidade de numeros inteiros dentro do array de inteiros, apos isso eu aloco um ponteiro L com o tamanho de N inteiros e leio cada um deles.
+
+#### Passo 2
+Após armazenar o valor de cada numero do array eu chamo a função contador a qual recebe left, right, o array de inteiro e o contador de posições que precisam ser alteradas, essa função trabalha por recursividade e em sua primeira chamada ela recebe left=0, right=N-1, L, 0.
+
+#### Passo Final
+Dentro da função caso left diferente de right o contador aumenta em 1 e passa para a proxima recursão passando Left+1, Right -1, L e o C. A recursão acaba quando Left==Right ou Left>Right. 
+
 
 ## Problema 3 - Ogro
