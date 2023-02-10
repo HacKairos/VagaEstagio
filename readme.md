@@ -42,3 +42,12 @@ Dentro da função caso left diferente de right o contador aumenta em 1 e passa 
 
 
 ## Problema 3 - Ogro
+Este problema foi o mais simples na minha opinião, lembra um pouco a solução do primeiro, pois não utilizei nenhuma técnica avançada, neste problema eu tenho que ajudar o ogro a contar quantos dedos ele deve levantar para determinados números e caso fosse menor do que 6 utilizar apenas uma mão enquanto a mão fechada é representada por "*".
+
+### Passo a Passo
+
+#### Passo 1
+Eu defino a variável N que representa o número que o ogro que contar com as mãos, logo apos eu verifico se o número é igual 0, pois caso seja deve ser printado * \n * \n.
+
+#### Passo Final
+Eu verifico se deve utilizar mais de uma mão ou não, analisando se o número é maior que 5, se não for ele entra em um laço de i=0 até i < N em i ++ printando "I". Ao final do laço ele printa um * para representar a mão fechada e um \n. E caso for maior que 5 serão printados automaticamente "IIIII" cinco I's para representar a mão esquerda e um laço igual ao anterior, porem a variável N é subtraída em 5 para representar os dedos que já foram levantados e ao final deste laço é printado o \n também.
