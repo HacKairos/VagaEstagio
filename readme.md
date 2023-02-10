@@ -26,19 +26,19 @@ Ai ao contabilizar todas as aparições eu chamo a função "contador" que basic
 
 
 ## [Problema 2 - Lista palíndroma](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f2/lista/)
-Neste segundo problema eu aplico alguns dos meus conhecimentos adquiridos na faculdade como alocação de memoria e recursividade, podendo assim apresentar um programa muito mais refinado que o anterior. também utilizando a linguagem C.
+Neste segundo problema eu aplico alguns dos meus conhecimentos adquiridos na faculdade como alocação de memória e recursividade, podendo assim apresentar um programa muito mais refinado que o anterior. Também utilizando a linguagem C.
 
 
 ### Passo a Passo
 
 #### Passo 1
-Eu defino a varivel N que representa a quantidade de numeros inteiros dentro do array de inteiros, apos isso eu aloco um ponteiro L com o tamanho de N inteiros e leio cada um deles.
+Eu defino a variável N que representa a quantidade de números inteiros dentro do array de inteiros, apos isso eu aloco um ponteiro L com o tamanho de N inteiros e leio cada um deles.
 
 #### Passo 2
-Após armazenar o valor de cada numero do array eu chamo a função contador a qual recebe left, right, o array de inteiro e o contador de posições que precisam ser alteradas, essa função trabalha por recursividade e em sua primeira chamada ela recebe left=0, right=N-1, L, 0.
+Após armazenar o valor de cada número do array eu chamo a função contador a qual recebe left, right, o array de inteiro e o contador de posições que precisam ser alteradas, essa função trabalha por recursividade e em sua primeira chamada ela recebe left=0, right=N-1, L, 0.
 
 #### Passo Final
-Dentro da função caso left diferente de right o contador aumenta em 1 e passa para a proxima recursão passando Left+1, Right -1, L e o C. A recursão acaba quando Left==Right ou Left>Right. 
+Dentro da função caso left diferente de right o contador aumenta em 1 e passa para a próxima recursão passando Left+1, Right -1, L e o C. A recursão acaba quando Left==Right ou Left>Right. 
 
 
 ## Problema 3 - Ogro
